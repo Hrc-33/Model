@@ -1,0 +1,28 @@
+Manager: 
+  { 
+  id: ObjectId, 
+  name: String,  
+  emailAddress: String, 
+  mobilePhone: Number  
+  } 
+User:
+  {
+  id: ObjectId,
+  firstName: String,
+  lastName: String,
+  dateOfBirth: Date
+}
+Game:
+{
+id: String,
+playersIds: [ObjectId]
+name: String,
+numberOfTeams: Number,
+numberOfPlayers: Number
+}
+SportField:
+{
+id: String,
+capacity: Number,
+address: String
+}  
